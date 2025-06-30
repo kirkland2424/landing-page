@@ -1,1 +1,1 @@
-# landing-page
+Create an entire website using skills used from prior section (HTML, CSS, CSS-Flexbox).
