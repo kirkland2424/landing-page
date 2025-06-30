@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    gap: 10px;
+}
+
+.navigation 
+h1, 
+ul{
+    margin: 20px;
+}
+
+.navigation {
+    background-color: #1f2937;
+    color: white;
+    
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
