@@ -10,7 +10,7 @@ a {
     color: white;
 }
 
-ul{
+ul {
     list-style-type: none;
     padding: 0px;
     display: flex;
@@ -18,7 +18,8 @@ ul{
 }
 
 .header, 
-.navigation{
+.navigation,
+.footer{
     background-color: #1f2937;
     color: white;
     /* Might have to change bottom padding once image is placed in */
@@ -32,8 +33,27 @@ ul{
     padding-bottom: 20px;
 }
 
+.nav-hero{
+    /* Think about converting the corresponding HTML to h1 */
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.header-hero{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.header p, a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
 .header{
-    padding-bottom: 100px;
+    padding: 50px 300px;
     align-items: flex-start;
 }
 
@@ -63,13 +83,21 @@ button {
 }
 
 .services{
-    text-align: center;  
+    text-align: center;
+    padding: 30px 500px 80px 500px;
+    align-items: flex-start;
+}
+
+.services-header{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
 }
 
 .carousel{
     display: flex;
     justify-content: center;
-    padding-top: 20px;
+    padding-top: 30px;
     gap: 100px;
 }
 
@@ -82,10 +110,53 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 150px 500px;
-    font-size: 32px;   
+    padding: 100px 500px;
+    font-size: 36px;   
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
 }
 
 .quoter{
     margin-left: auto;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.contact-section{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 500px;
+    font-size: 18px;
+    color: white;
+}
+
+.contact-card{
+    background-color: #3882F6;
+    border-color:  #3882F6;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 10px 80px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-left{
+    flex: 5;
+}
+
+.call-to-action{
+    font-weight: bold;
+}
+
+.contact-right{
+    flex: 1;
+}
+
+.footer{
+    padding: 25px;
+    justify-content: center;
 }
