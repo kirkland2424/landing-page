@@ -1,19 +1,10 @@
 body {
-    display: flex;
-    flex-direction: column;
     margin: 0px;
     font-family: "Roboto"; 
 }
 
-a {
-    text-decoration: none;
-    color: white;
-
-}
-
 ul {
     list-style-type: none;
-    padding: 0px;
     display: flex;
     gap: 10px;
     flex: 0 0 auto;
@@ -22,13 +13,10 @@ ul {
 .header, 
 .navigation,
 .footer{
-    /* Check if there's a way to dynamically set parent width based on viewport size */
     background-color: #1f2937;
-    color: #ffffff;
-    /* Might have to change bottom padding once image is placed in */
+    color: #F9FAF8;
     padding: 0px 300px;
     display:flex;
-    justify-content: space-between;
     align-items: center;
 }
 
@@ -41,26 +29,22 @@ ul {
     width: 70%;
 }
 
-
 .navigation{
-/* Can probably delete this */
     padding-bottom: 20px;
 }
 
-.nav-hero{
-    /* Think about converting the corresponding HTML to h1 */
-    font-size: 24px;
+.nav-hero, 
+.header-hero{
     font-weight: 900;
-    display: flex;
-    color: #F9FAF8;
-    /* min-width: 240px; */
+}
+
+.nav-hero{
+    font-size: 24px;
     flex: 1 0 auto;
 }
 
 .header-hero{
     font-size: 48px;
-    font-weight: 900;
-    color: #F9FAF8;
 }
 
 .header p, a{
@@ -74,13 +58,11 @@ ul {
     align-items: flex-start;
     justify-content: space-between;
     flex-wrap: wrap;
-    flex: 1 0 auto;
 }
 
 .header-left{
     max-width: 860px;
     min-width: 400px;
-    flex: 1 0 300px;
 }
 
 .header button {
@@ -89,7 +71,6 @@ ul {
     margin-bottom: 38px;
 
 }
-
 
 button {
     background: #3882F6;
@@ -101,8 +82,6 @@ button {
 
 .header img {
     width: 400px;
-    max-width: 100%;
-    min-width: 250px;
 }
 
 .services{
@@ -111,13 +90,11 @@ button {
     align-items: flex-start;
 }
 
-/* Make this centered when making screen smaller */
+
 .services-header{
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
-    /* min-width: 300px; */
-    flex: 1 0 auto;
 }
 
 .carousel{
@@ -129,7 +106,7 @@ button {
 }
 
 .carousel img{
-    max-width: 250px;
+    width: 250px;
 }
 
 .quote{
@@ -142,7 +119,7 @@ button {
     font-style: italic;
     font-weight: 300;
     color: #1f2937;
-    min-width: 400px;
+    min-width: 350px;
 }
 
 .quoter{
@@ -171,7 +148,6 @@ button {
     height: 100px;
     display: flex;
     align-items: center;
-    flex: 0 1 auto;
     flex-wrap: wrap;
 }
 
